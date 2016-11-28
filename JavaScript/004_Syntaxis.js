@@ -88,6 +88,7 @@
         Cadena5 = "p3";
 
       Adelante();
+      HolaSoyYo();
 
         return p1+" ...";
 
@@ -106,5 +107,17 @@ function Adelante() {
 console.log(Cadena2);
 
 return Cadena2;
+
+}
+
+function HolaSoyYo() {
+
+var LoHagoBien = "estoy por buen"
+
+LoHagoBien += " camino"
+
+console.log(LoHagoBien);
+
+return LoHagoBien;
 
 }
